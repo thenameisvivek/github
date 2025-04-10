@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     response = client.run_instances(
        ImageId= 'ami-0614680123427b75e',
        KeyName= 'mykeymumbai'
-       MaxCount=1,
+       MaxCount=2,
        mincount=1
        )
 
